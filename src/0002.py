@@ -2,12 +2,16 @@
 # $$1, 2, 3, 5, 8, 13, 21, 34, 55, 89, \dots$$</p>
 # <p>By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.</p>
 
-
-if __name__ == "__main__":
+def sum_even_value_fibonacci(limit:int) -> int:
     a, b = 1, 2 
     sum = 0
     while b < 4000000:
         if b % 2 == 0:
             sum += b
         a, b = b,a + b
-    print(sum)
+    return sum
+
+
+
+if __name__ == "__main__":
+    print(sum_even_value_fibonacci(4000000))
