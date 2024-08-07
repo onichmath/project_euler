@@ -1,1 +1,2 @@
-# project_euler
+# Project Euler
+Solutions to (Project Euler)[https://projecteuler.net] problems in Python.
