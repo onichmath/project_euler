@@ -1,5 +1,7 @@
 # <p>The prime factors of $13195$ are $5, 7, 13$ and $29$.</p>
 # <p>What is the largest prime factor of the number $600851475143$?</p>
+import math
+from time import time
 
 def trial_division(n: int) -> list:
     # https://en.wikipedia.org/wiki/Trial_division
@@ -18,4 +20,7 @@ def trial_division(n: int) -> list:
 
 
 if __name__ == "__main__":
+    start = time()
     print(max(trial_division(600851475143)))
+    end = time()
+    print(f"Time taken: {end-start}")
