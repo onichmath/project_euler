@@ -7,3 +7,6 @@ Solutions to Project Euler problems by Matthew O'Malley-Nichols
     - 1.049041748046875e-05s
 3. 6857
     - 9.751319885253906e-05s
+4. 906609
+    - 0.0008928775787353516s
+5. 
